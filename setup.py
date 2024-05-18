@@ -1,5 +1,7 @@
 from setuptools import setup, find_packages
-
+import pathlib
+HERE = pathlib.Path(__file__).parent
+README = (HERE / "README.md").read_text()
 setup(
     name='automate-tasks',
     version='1.0.0',
