@@ -10,6 +10,14 @@ Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: secure-smtplib
+Requires-Dist: soupsieve
+Requires-Dist: urllib3
+Requires-Dist: idna
+Requires-Dist: charset-normalizer
+Requires-Dist: certifi
 
 
 # Automate Tasks Package

@@ -9,3 +9,6 @@ automate_tasks.egg-info/SOURCES.txt
 automate_tasks.egg-info/dependency_links.txt
 automate_tasks.egg-info/requires.txt
 automate_tasks.egg-info/top_level.txt
+tests/test_email_handling.py
+tests/test_file_management.py
+tests/test_web_scraping.py
