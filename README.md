@@ -1,0 +1,80 @@
+
+# Automate Tasks Package
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/python-3.6%20|%203.7%20|%203.8%20|%203.9-blue.svg)](https://www.python.org/)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/yourusername/automate-tasks/CI?label=CI&logo=github)](https://github.com/yourusername/automate-tasks/actions/workflows/ci.yml)
+
+A Python package that automates common tasks such as file management, web scraping, and email handling.
+
+## Installation
+
+You can install the package via pip:
+
+```sh
+pip install automate-tasks
+```
+
+## Usage
+
+### File Management
+
+```python
+from automate_tasks.file_management import create_directory, delete_directory, copy_file, move_file
+
+# Example usage
+create_directory('new_directory')
+delete_directory('new_directory')
+copy_file('source.txt', 'destination.txt')
+move_file('source.txt', 'new_destination.txt')
+```
+
+### Web Scraping
+
+```python
+from automate_tasks.web_scraping import fetch_html, parse_html
+
+# Example usage
+html_content = fetch_html('https://example.com')
+parsed_content = parse_html(html_content, 'div', 'class_name')
+```
+
+### Email Handling
+
+```python
+from automate_tasks.email_handling import send_email
+
+# Example usage
+send_email(
+    sender='sender@example.com',
+    recipient='recipient@example.com',
+    subject='Test Email',
+    body='This is a test email.',
+    smtp_server='smtp.example.com',
+    smtp_port=587,
+    login='user@example.com',
+    password='password'
+)
+```
+
+## Tests
+
+To run the tests, install the dependencies and run `pytest`:
+
+```sh
+pip install -r requirements.txt
+pytest
+```
+
+## Tools Used
+
+- Python - Programming language used to develop the package.
+- pytest - Testing framework used for unit testing.
+- requests - Library for making HTTP requests in web scraping.
+- beautifulsoup4 - Library for parsing HTML and XML documents in web scraping.
+- secure-smtplib - Library for sending emails securely.
+- GitHub Actions - Used for continuous integration (CI) to run tests automatically.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
