@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+secure-smtplib
+soupsieve
+urllib3
+idna
+charset-normalizer
+certifi

@@ -1,0 +1,11 @@
+README.md
+setup.py
+automate_tasks/__init__.py
+automate_tasks/email_handling.py
+automate_tasks/file_management.py
+automate_tasks/web_scraping.py
+automate_tasks.egg-info/PKG-INFO
+automate_tasks.egg-info/SOURCES.txt
+automate_tasks.egg-info/dependency_links.txt
+automate_tasks.egg-info/requires.txt
+automate_tasks.egg-info/top_level.txt

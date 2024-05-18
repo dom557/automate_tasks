@@ -1,6 +1,10 @@
 # Ignore virtual environment
 automate_env/
 
+# Ignore distribution and build directories
+dist/
+build/
+
 # Ignore Python bytecode files
 *.pyc
 
